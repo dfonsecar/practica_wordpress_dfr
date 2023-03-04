@@ -1,0 +1,97 @@
+/*
+Theme Name: David Fonseca
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+body {
+font-family: 'open Sans';
+}
+
+.flex {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+}
+
+.h3-new{
+font-weight: 600;
+font-size: 40px;
+}
+
+.ul{
+padding: 10px;
+margin-left: 20px;
+}
+
+.li{
+padding: 10px;
+margin-left: 20px;
+}
+
+.a {
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+
+.active{
+    width: 5%;
+    height: 40px;
+    color: white;
+    background: #ff5480;
+    border-radius: 10px;
+}
+
+.img-article{
+    width: 90%;
+    height: 350px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.img1{
+    background-image: url(../imatges/imatge1.png);
+}
+.img2{
+    background-image: url(../imatges/imatge2.png);
+}
+.img3{
+    background-image: url(../imatges/imatge3.png);
+}
+.img4{
+    background-image: url(../imatges/imatge4.png);
+}
+.img5{
+    background-image: url(../imatges/imatge5.png);
+}
+.img6{
+    background-image: url(../imatges/imatge6.png);
+}
+.img7{
+    background-image: url(../imatges/imatge7.png);
+}
+.img8{
+    background-image: url(../imatges/imatge8.png);
+}
+.img9{
+    background-image: url(../imatges/imatge9.png);
+}
+.img10{
+    background-image: url(../imatges/imatge10.png);
+}
+.img11{
+    background-image: url(../imatges/imatge11.png);
+}
+.img12{
+    background-image: url(../imatges/imatge12.png);
+}
+.img13{
+    background-image: url(../imatges/imatge13.png);
+}
+.img14{
+    background-image: url(../imatges/imatge14.png);
+}
+
+img.attachment-post-thumbnail{
+    width: 100%; height: auto;
+}
