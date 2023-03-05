@@ -2,4 +2,14 @@
 Template Name: David Fonseca CSS
 */
 
-@import url();
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap);
+body{
+    font-family: 'Montserrat';
+}
+.header{
+    background-color: rgb(243, 182, 124);
+}
+.flex{
+display:flex;
+justify-content: center;
+}
