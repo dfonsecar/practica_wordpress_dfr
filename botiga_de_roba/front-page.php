@@ -1,18 +1,35 @@
-<?php /**Template Name: INICI */?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
-</head>
-<body>
-<img src="/botiga_de_roba/imgs/jumbo-front.png">
+<?php /**Template Name: página_INICI */?>
 <?php
-    get_footer ();
+    get_header ();
 ?>
-</body>
- 
+<section class="jumbo1">
+    <h3 class="tittle2">Benvinguts a la nostra web</h3>
+</section>
+<section class="jumbo-bottom flex">
+    <section class="image flex">
+        <section class="cuadre">
+            <div class="news"></div>
+            <div class="blanc1 flex">
+                <h1 class="Les darreres noticies de moda mundial 
+                Noticies"></h1>
+            </div>
+</section>
+<section class="cuadre">
+    <div class="ropa">
+    </div>
+    <div class="blanc2 flex">
+        <h1 class="subtitol">Visita la nostra botigua online Botiga
+        </h1>
+</div>
+</section>
+<section class="cuadre">
+<div class="shop"></div>
+    <div class="blanc3 flex">
+        <h1 class="subtitle">Visita la nostra botigua online Ofertes
+        </h1>
+    </div>
+</section>
+</section>
+<?php 
+get_footer();
+?>
