@@ -10,8 +10,8 @@
         <section class="cuadre">
             <div class="news"></div>
             <div class="blanc1 flex">
-                <h1 class="Les darreres noticies de moda mundial 
-                Noticies"></h1>
+                <h1 class="subtitol">Les darreres noticies de moda mundial 
+                Noticies</h1>
             </div>
 </section>
 <section class="cuadre">
@@ -25,7 +25,7 @@
 <section class="cuadre">
 <div class="shop"></div>
     <div class="blanc3 flex">
-        <h1 class="subtitle">Visita la nostra botigua online Ofertes
+        <h1 class="subtitol">Visita la nostra botigua online Ofertes
         </h1>
     </div>
 </section>

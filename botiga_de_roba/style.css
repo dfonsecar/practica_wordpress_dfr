@@ -20,12 +20,179 @@ a{
     border-radius: 10px;
     background-color:#ff5480;
 }
-.web-icon{
-    display: block;
-    width: 100px;
-    height: 30px;
-    background-image: url(..);
-    background-repeat:no-repeat;
-    background-position:center;
+/*Final del header*/
+/*Començam body*/
+ul>li>a{
+    padding:10px;
+    margin-left:20px;
 }
-/*Final del header
+/*Començam amb Imatges*/
+.img-fluid{
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:360px;
+    border-radius:10px;
+}
+/*Final Imatges*/
+.col-lg-6 div{
+    justify-content:left;
+}
+.flex p{
+    margin-left:1%;
+    margin-right:1%;
+}
+.titulo{
+    font-size:35px;
+    font-weight:900;
+    margin-top:100px;
+}
+/*Inici topics*/
+.search{
+    width:520px;
+    height:70px;
+    left:776px;
+    top:6420px;
+    background: #FFFFFF;
+    box-shadow:0px 0px 8px rgba(0, 0, 0, 0.0835598);
+    border-radius:40px;
+}
+/*Final topics*/
+/*Inici Footer*/
+.footer-i>a>i{
+    width: 35px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.jumbo{
+    justify-self: start;
+}
+.tittle2{
+    color: rgb(243, 182, 124);
+}
+.jumbo1{
+    background-position: center;
+    height:400px;
+    background-image: url(imgs/jumbo-front.png);
+}
+.jumbo2{
+    background-position: left;
+    height:400px;
+    background-image: url(imgs/jumbo-botiga.png);
+}
+.jumbo-bottom{
+    background-color: #ffbc69;
+    height: 800px;
+    background-position: 0%;
+}
+.subtitol{
+font-size:18px;
+font-weight:600;
+margin-top:50px;
+margin-bottom:100px;
+}
+.cuadro{
+    margin: 2%;
+    margin-bottom: 0%;
+}
+.textarea{
+   flex-direction: column;
+}
+.title{
+font-family:'Open Sans';
+font-size:29px;
+text-align:left;
+font-weight:900;
+}
+.subtitle{
+    color: #999;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 15px;
+}
+.news {
+    background-image: url(imgs/news.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0%;
+  }
+.clothes {
+    background-image: url(imgs/);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0%;
+}
+.img-fluid{
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:360px;
+    border-radius:10px;
+}
+/*Final Imatges*/
+.col-lg-6 div{
+    justify-content:left;
+}
+.shop {
+    background-image: url(imgs/sale.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0%;
+}
+.samarretes{
+    background-image: url(imgs/samarretes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0%;
+}  
+.texans{
+    background-image: url(imgs/jeans.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0%;
+}  
+.blanc1 {
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 300px;
+    margin-top: 0%;
+}   
+.blanc2 {
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 300px;
+    margin-top: 0%;
+}   
+.blanc3 {
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 300px;
+    margin-top: 0%;
+}   
+.images{
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2%;
+    width: 100%;
+    height: 50vh;      
+}
