@@ -1,8 +1,6 @@
-/*
-Template Name: David Fonseca CSS
-*/
-
+/* Template Name: David Fonseca CSS */
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap);
+/*Començam el Header*/
 body{
     font-family: 'Montserrat';
 }
@@ -10,6 +8,24 @@ body{
     background-color: rgb(243, 182, 124);
 }
 .flex{
-display:flex;
-justify-content: center;
+    justify-content: center;
+    display:flex;
 }
+a{
+    text-decoration: none;
+    color:black;
+}
+.active{
+    color: white;
+    border-radius: 10px;
+    background-color:#ff5480;
+}
+.web-icon{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-image: url(..);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+/*Final del header
